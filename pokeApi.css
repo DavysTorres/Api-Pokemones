@@ -1,0 +1,73 @@
+ body {
+    background-color: #233D5A;
+}
+.card {
+    max-width: 100%;
+    background: url('img/cartaPokemon.png') no-repeat center center;
+    background-size: cover;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1cdb50;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+.card-text{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(15, 210, 224);
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 190px;
+}
+
+.search-bar {
+    margin: 20px;
+    width: 80%;
+    padding: 10px;
+}
+
+.progress-bar {
+    float: right;
+    font-style: oblique;
+    color: rgb(27, 1, 1);
+    height: 18px;
+    display: block;
+    background: none;
+    border-radius: 15px;
+}
+
+.val {
+    float: right;
+    font-style: oblique;
+}
+
+.text-title{
+    transform: translateY(-30px);
+    text-transform: uppercase;
+    color: rgb(7, 252, 129);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
